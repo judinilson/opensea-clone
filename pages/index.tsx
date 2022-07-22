@@ -45,7 +45,6 @@ const Home: NextPage = () => {
         <>
           <Header />
           <Hero />
-          <h2>{address}</h2>
         </>
       ) : (
         <div className={style.walletConnectWrapper}>
