@@ -1,24 +1,40 @@
-# Next.js + Tailwind CSS Example
+# OpenSea-clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## OpenSea
 
-## Deploy your own
+OpenSea offers a marketplace allowing for non-fungible tokens to be sold directly at a fixed price, or through an auction, based on the Ethereum ERC-721 standard, the layer-2 scaling solution for Ethereum Polygon, the KIP-7 standard for Klaytn, and the SPL standard for Solana
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Poject Description
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- OpenSea is a decentralized peer-to-peer marketplace for buying, selling and trading rare digital goods, from gaming items to collectibles to art, which are built on non-fungible token (NFT) technology and run on the Ethereum blockchain.
+- Mint. To ‘mint’ an NFT which means to create the digital representation of something and its belonging to the blockchain.
+- Burn. Which allow you to send the token to a ‘black hole’ account with no-access to the public, whom can only check the balance but not its content.
+- Pause. Allows you to pause the transfers of the NFT, what could be useful if for any reason you would like to stop the marketability of the asset.
+- Transfer. Needed to transfer and keep a trace of the asset in the blockchain.
+- Add Metadata. Return a token URI. Our token URI will be baseUri + tokenId, which will be automatically added and increased with every minting.
 
-## How to use
+# Project Results
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+![Logo](./assets/project-results.png)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### OPENSEA CLONE LINK
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-# opensea-clone
+- https://opensea-bloackchain-clone.vercel.app
+
+# Getting Started
+
+### Dependencies
+
+- please install all the dependencies using yarn install
+
+### Installing
+
+- clone this repository by using git clone https://github.com/judinilson/opensea-clone.git
+- then cd/opensea-clone folder then install the dependencies
+- then cd/studio folder then install the sanity dependencies
+
+### Executing program
+
+- To run it use the following command
+- for server npm run dev
+- for studio server sanity start
