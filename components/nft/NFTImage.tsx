@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { IoMdSnow } from "react-icons/io";
 import { AiOutlineHeart } from "react-icons/ai";
 

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { CgArrowsExchangeV } from "react-icons/cg";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import { useState } from "react";
@@ -20,6 +21,7 @@ const ItemActivity = () => {
         </div>
       </div>
       {toggle && (
+        //@ts-ignore
         <div className={style.activityTable}>
           <div className={style.filter}>
             <div className={style.filterTitle}>Filter</div>

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/router";
 import { useWeb3 } from "@3rdweb/hooks";

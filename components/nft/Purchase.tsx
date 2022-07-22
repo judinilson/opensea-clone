@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useEffect, useState } from "react";
 
 import { HiTag } from "react-icons/hi";
